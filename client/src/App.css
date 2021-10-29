@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.shadow-custom:focus {
+  box-shadow:  2px 2px 15px #cacaca,
+             -2px -2px 15px #f6f6f6;
+}
+.flex-1\.5 {
+  flex: 1.5 0;
+}
+.nc-hero-field-padding {
+  padding: 0.75rem 1rem;
+}
+@media (min-width: 768px){
+  .nc-hero-field-padding {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1.75rem;
+      padding-right: 1.75rem;
+  }
+}
